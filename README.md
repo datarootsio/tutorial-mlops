@@ -10,4 +10,4 @@ To promote MLOps best practices we have run a workshop to KU Leuven university s
 
 ## Getting started 
 The notebooks are created in Google Colab :partying_face: and can easily be accessed by clicking these links: 
-tutorial, exercise and exercise solutions. 
+[tutorial](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Tutorial.ipynb), [exercise](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Exercise.ipynb) and [exercise solutions](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Exercise_Solution.ipynb). 
