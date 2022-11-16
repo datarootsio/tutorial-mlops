@@ -21,3 +21,10 @@ To run the notebooks locally just create your `conda` environment by using the f
 ```console
 conda env create --file mlops.yml
 ```
+
+Then activate the created environment and run `jupyter lab` as follows:
+
+```console
+conda activate mlops
+jupyter lab
+```
