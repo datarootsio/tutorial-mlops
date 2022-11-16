@@ -16,8 +16,8 @@ The notebooks are created in Google Colab :partying_face: and can easily be acce
 
 ### Anaconda/Miniconda
 
-- To run the notebooks locally just create your `conda` environment by using the file `mlops.yml` located in the root path of this repository directory:
+To run the notebooks locally just create your `conda` environment by using the file `mlops.yml` located in the root path of this repository directory:
 
-```bash
+```console
 conda env create --file mlops.yml
 ```
