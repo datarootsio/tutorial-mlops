@@ -9,5 +9,22 @@ At datartoots we've been pioneers of the **MLOps** methodology since the very be
 To promote MLOps best practices we have run a workshop to KU Leuven university students. In this repository you can find the three different notebooks  (a tutorial, an exercise and exercise solutions) which we created for the MLOps workshop. The tutorial gives a gentle introduction to three popular frameworks for MLOps: [DVC](https://dvc.org/), [MLflow](https://mlflow.org/) and [Pycaret](https://pycaret.org/). It will show you how to version your data using DVC, track your experiments using MLFlow and doing autoML using Pycaret. Afterwards you can practice your newly acquired knowledge by completing the exercise notebook. 
 
 ## Getting started 
+
+### Colab
 The notebooks are created in Google Colab :partying_face: and can easily be accessed by clicking these links: 
 [tutorial](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Tutorial.ipynb), [exercise](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Exercise.ipynb) and [exercise solutions](https://colab.research.google.com/github/datarootsio/mlops-workshop/blob/main/notebooks/MLOps_Exercise_Solution.ipynb). 
+
+### Anaconda/Miniconda
+
+To run the notebooks locally just create your `conda` environment by using the file `mlops.yml` located in the root path of this repository directory:
+
+```console
+conda env create --file mlops.yml
+```
+
+Then activate the created environment and run `jupyter lab` as follows:
+
+```console
+conda activate mlops
+jupyter lab
+```
